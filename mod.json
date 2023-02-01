@@ -1,11 +1,13 @@
 {
-"name" : "testing mod"
-"displayName" : "just a testing mod" //what displays in the mod selection menu
+"name" : "Alpha Plus"
+"displayName" : "just a testing java mod - early build" //what displays in the mod selection menu
 "author" : "Tempoletion"
-"description" : "A mod that testing"
+"description" : "A testing java mod - early build"
 "version" : "1.4.2"
 "minGameVersion" : "136"
 "dependencies" : []
 "hidden" : false
 
 }
+
+

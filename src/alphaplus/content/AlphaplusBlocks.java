@@ -1,6 +1,6 @@
 package alphaplus.content;
 
-arc.graphics.*;
+import arc.graphics.*;
 import arc.math.*;
 import arc.struct.*;
 import mindustry.*;

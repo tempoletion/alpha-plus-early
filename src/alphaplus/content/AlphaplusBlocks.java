@@ -53,7 +53,7 @@ public class AlphaplusBlocks{
 			powerProduction = 5f;
 			outputLiquid = LiquidStack(Liquid.water, 5f);
 			hasLiquids = true;
-			size 2;
+			size = 2;
 			
 			consumesLiquid(Liquids,water,0.2f);
 		}};

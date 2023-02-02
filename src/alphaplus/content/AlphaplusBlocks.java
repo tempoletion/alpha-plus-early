@@ -4,6 +4,7 @@ import arc.graphics.*;
 import arc.math.*;
 import arc.struct.*;
 import mindustry.*;
+import mindustry.content.*:
 import mindustry.entities.*;
 import mindustry.entities.abilities.*;
 import mindustry.entities.bullet.*;
@@ -39,13 +40,12 @@ import mindustry.world.meta.*;
 import static mindustry.Vars.*;
 import static mindustry.type.ItemStack.*;
 
-@SuppressWarnings("deprecation")
 public class AlphaplusBlocks{
 	//list of blocks and environment
 	public static Block oven, waterTurbine;
 	
-	private static void load() {
-		oven = new GeneticCreafter("oven"){{
+	public static void load() {
+		oven = new GenericCreafter("oven"){{
 			requirements(Category.crafting, with(Items.lead, 45, Items.graphite, 30,Items.silicon,20));
 
             craftEffect = Fx.fireSmoke;

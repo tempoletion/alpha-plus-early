@@ -20,7 +20,7 @@ import mindustry.maps.*;
 import mindustry.mod.*;
 import mindustry.net.*;
 import mindustry.ui.*;
-import alphaplus.conteny.*;
+import alphaplus.content.*;
 
 import static arc.Core.*;
 import static mindustry.Vars.*;

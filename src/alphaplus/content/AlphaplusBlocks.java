@@ -44,7 +44,7 @@ public class AlphaplusBlocks{
 	//list of blocks and environment
 	public static Block oven, waterTurbine;
 	
-	public static void load() {
+	private static void load() {
 		oven = new GeneticCreafter("oven"){{
 			requirements(Category.crafting, with(Items.lead, 45, Items.graphite, 30,Items.silicon,20));
 

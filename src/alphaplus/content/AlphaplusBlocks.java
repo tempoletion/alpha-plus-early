@@ -39,6 +39,7 @@ import mindustry.world.meta.*;
 import static mindustry.Vars.*;
 import static mindustry.type.ItemStack.*;
 
+@SuppressWarnings("deprecation")
 public class AlphaplusBlocks{
 	//list of blocks and environment
 	public static Block oven, waterTurbine;

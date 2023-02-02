@@ -27,9 +27,8 @@ import static mindustry.Vars.*;
 
 public class AlphaPlus extends Mod{
 	
-	    public AlphaPlus(){
+	public AlphaPlus(){
         Log.info("Loaded Alpha-Plus mod constructor.");
-        });
     }
 
     @Override
@@ -37,5 +36,5 @@ public class AlphaPlus extends Mod{
     	new AlphaplusBlocks().load();
         Log.info("Loading some example content.");
     }
-
+    
 }

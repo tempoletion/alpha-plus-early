@@ -45,7 +45,7 @@ public class AlphaplusBlocks{
 
             consumeItems(with(Items.coal, 2));
 		}};
-		waterTurbine = new PowerGenerator("water turbine"){{
+		waterTurbine = new ConsumeGenerator("water turbine"){{
 			requirements(Category.power, with(Items.lead, 45, Items.graphite, 30,Items.silicon,20));
 			liquidCapacity = 5f;
 			powerProduction = 5f;

@@ -1,0 +1,7 @@
+name : "Alpha-plus-mod"
+displayName : "Alpha plus" //what displays in the mod selection menu
+main : "alphaplus.AlphaPlus"
+author : "Tempoletion"
+description : "just a testing java mod - early build"
+version : "0.1.0"
+minGameVersion : 136

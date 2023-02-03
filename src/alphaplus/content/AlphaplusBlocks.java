@@ -43,17 +43,18 @@ public class AlphaplusBlocks{
             hasItems = true;
             drawer = new DrawMulti(new DrawDefault(), new DrawFlame(Color.valueOf("ffef99")));
 
-            consumes.item(Items.coal, 2);
+            consumeItems(with(Items.coal, 2));
 		}};
 		waterTurbine = new PowerGenerator("water turbine"){{
 			requirements(Category.power, with(Items.lead, 45, Items.graphite, 30,Items.silicon,20));
 			liquidCapacity = 5f;
 			powerProduction = 5f;
 			outputLiquid = LiquidStack(Liquid.water, 5f);
+			outputsLiquid = true;
 			hasLiquids = true;
 			size = 2;
 			
-			consumesLiquid(Liquids.water,0.2f);
+			consumeLiquid(Liquids.water,0.2f);
 		}};
 	}
 }

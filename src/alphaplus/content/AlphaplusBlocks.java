@@ -49,8 +49,6 @@ public class AlphaplusBlocks{
 			requirements(Category.power, with(Items.lead, 45, Items.graphite, 30,Items.silicon,20));
 			liquidCapacity = 5f;
 			powerProduction = 5f;
-			outputLiquid = LiquidStack(Liquids.water, 5f);
-			outputsLiquid = true;
 			hasLiquids = true;
 			size = 2;
 			

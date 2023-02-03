@@ -7,6 +7,7 @@ import arc.struct.*;
 import arc.util.*;
 import mindustry.*;
 import mindustry.content.*;
+import mindustry.content.Liquids;
 import mindustry.entities.effect.*;
 import mindustry.entities.pattern.*;
 import mindustry.game.*;

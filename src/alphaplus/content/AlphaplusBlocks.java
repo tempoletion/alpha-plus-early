@@ -19,6 +19,7 @@ import mindustry.world.blocks.defense.turrets.*;
 import mindustry.world.blocks.environment.*;
 import mindustry.world.blocks.logic.*;
 import mindustry.world.blocks.payloads.*;
+import mindustry.world.blocks.power.*;
 import mindustry.world.blocks.production.*;
 import mindustry.world.blocks.storage.*;
 import mindustry.world.consumers.*;
@@ -33,7 +34,7 @@ public class AlphaplusBlocks{
 	public static Block oven, waterTurbine;
 	
 	public static void load() {
-		oven = new GenericCreafter("oven"){{
+		oven = new GenericCrafter("oven"){{
 			requirements(Category.crafting, with(Items.lead, 45, Items.graphite, 30,Items.silicon,20));
             craftEffect = Fx.fireSmoke;
             outputItem = new ItemStack(Items.graphite, 1);

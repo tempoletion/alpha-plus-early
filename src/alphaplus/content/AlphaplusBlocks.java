@@ -7,7 +7,6 @@ import arc.struct.*;
 import arc.util.*;
 import mindustry.*;
 import mindustry.content.*;
-import mindustry.content.Liquids;
 import mindustry.entities.effect.*;
 import mindustry.entities.pattern.*;
 import mindustry.game.*;
@@ -36,7 +35,6 @@ public class AlphaplusBlocks{
 	public static void load() {
 		oven = new GenericCreafter("oven"){{
 			requirements(Category.crafting, with(Items.lead, 45, Items.graphite, 30,Items.silicon,20));
-
             craftEffect = Fx.fireSmoke;
             outputItem = new ItemStack(Items.graphite, 1);
             craftTime = 90f;
@@ -54,7 +52,7 @@ public class AlphaplusBlocks{
 			hasLiquids = true;
 			size = 2;
 			
-			consumesLiquid(Liquids,water,0.2f);
+			consumesLiquid(Liquids.water,0.2f);
 		}};
 	}
 }
